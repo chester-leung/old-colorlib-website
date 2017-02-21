@@ -1,123 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
 
-    <title>Chester Leung </title>
+    <title>Chester Leung</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
-    <!-- Custom styles for this template -->
-    <link href="assets/css/main.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <!-- Theme CSS -->
+    <link href="css/grayscale.min.css" rel="stylesheet">
 
-    <script type="text/javascript" src="js/modernizr.custom.js"></script>
-
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="assets/js/hover.zoom.js"></script>
-    <script src="assets/js/hover.zoom.conf.js"></script>
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
 
-  <body>
+</head>
 
-    <!-- Static navbar -->
-    <div class="navbar navbar-inverse navbar-static-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html">CHESTER LEUNG</a>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <span class="light">Chester Leung</span> 
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="about.html">About</a></li>
-            <!--<li><a href="work.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li> -->
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
+        <!-- /.container -->
+    </nav>
 
-	<!-- +++++ Welcome Section +++++ -->
-	<div id="ww">
-	    <div class="container">
-			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2 centered">
-					<img src="assets/img/chester_circular.png">
-					<h1>Hi, I'm Chester!</h1>
-					<p>I'm a first year at UC Berkeley, double majoring in computer science and statistics. I'm super passionate about taking on challenges, building team projects, and creatively solving problems. </p>
-									
-				</div><!-- /col-lg-8 -->
-			</div><!-- /row -->
-      <!-- +++++ Social Media Links +++++ -->
-          <div class="col-lg-8 col-lg-offset-2 container centered" id ="about">
-            <ul>
-              <li><a href="https://www.facebook.com/profile.php?id=100002143508308"> <img src="assets/img/fb.png"></a></li>
-              <li><a href="https://github.com/chester-leung"> <img src="assets/img/gh.png"></a></li>
-              <li><a href="https://www.linkedin.com/in/chester-leung-a33177118"> <img src="assets/img/in.png"></a></li>
-              <li><a href="mailto:chester.leung@berkeley.edu"> <img src="assets/img/email.png"></a></li>
-            </ul>
-          </div>
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">Chester Leung</h1>
+                        <p class="intro-text">Student at 
+                        <a href="http://www.berkeley.edu/">UC Berkeley</a>
+                        &#8226; Web Developer Intern at <a href="http://begnosis.com">Begnosis</a>
+                        </p>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-	    </div> <!-- /container -->
+    </header>
 
-
-
-
-	
-	
-	<!-- +++++ Footer Section +++++ -->
-	
-	<div id="footer">
-		<div class="container">
-      <!--
-      <div class="row">
-        <p>MY LINKS</p>
-      </div>
-			
-      <div class="row">s
-				<div class="col-lg-2">
-					<p> <a href="https://github.com/chester-leung">GitHub</a> </p>
-          </div>
-        <div class = "col-lg-2">
-					<p> <a href="https://www.linkedin.com/in/chester-leung-a33177118">LinkedIn</a> </p>
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>About Chester</h2>
+                <p>Hello! I'm Chester, a computer science/statistics student at UC Berkeley. Besides programming and challenging myself with personal projects, I also play in the <a href="https://orchestra.berkeley.edu/">UC Berkeley Symphony Orchestra</a> and work on the marketing committee of <a href="https://www.facebook.com/autofocusberkeley/">Autofocus</a>. Recently, I co-founded a club, <a href="https://berkeley-automation.github.io/calacrity/">Calacrity</a>, with a few buddies. In my spare time, I love playing pickup sports, shooting pool, and browsing for sneakers.</p>
+                </p>
+            </div>
         </div>
-        <div class = "col-lg-2">
-					<p> <a href="#">Facebook</a> </p>
-          </div> -->
-				
-				<div id ="copyright">
-					 <p>© Chester Leung 2017 | All Rights Reserved</p>
-				  </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Contact Me!</h2>
+                <p>Don't hesitate to shoot me a message and say hello!</p>
+                <ul class="list-inline banner-social-buttons">
+                    <li><a href="https://github.com/chester-leung"> <img src="img/gh.png"></a></li>
+                    <li><a href="https://www.facebook.com/profile.php?id=100002143508308"> <img src="img/fb.png"></a></li>
+                    <li><a href="https://www.linkedin.com/in/chester-leung-a33177118"> <img src="img/in.png"></a></li>
+                    <li><a href="mailto:chester.leung@berkeley.edu"> <img src="img/email.png"></a></li>
+                    <li><a href="https://www.instagram.com/chestercleung/"> <img src="img/instagram.png"></a></li>
+                </ul>
+
+                <div id = "spacing">
+                <p style="color: black"> . </p>
+                <p style="color: black"> . </p>
+                <p style="color: black"> . </p>
+                </div>
+            </div>
+
         </div>
-			
-			<!-- </div> -->
-		
-		</div>
-	</div> 
+    </section>
 
-        
-	
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="assets/js/bootstrap.min.js"></script>
-  </body>
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+             <p> Copyright &copy; Chester Leung 2017 &#8226; All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/grayscale.min.js"></script>
+
+</body>
+
 </html>
