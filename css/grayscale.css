@@ -39,7 +39,7 @@ p {
   }
 }
 a {
-  color: #38618C;
+  color: #FF5964;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -49,6 +49,18 @@ a:focus {
   text-decoration: none;
   color: #DD7A81;
 }
+
+.social-button:hover img {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition: -webkit-transform .3s ease-out;
+  -webkit-transition: transform .3s ease-out;
+  -moz-transition: transform .3s ease-out;
+  transition: transform .3s ease-out;
+}
+
 .light {
   font-weight: 400;
 }
@@ -218,7 +230,7 @@ a:focus {
   }
 }
 .content-section {
-  padding-top: 100px;
+  padding-top: 90px;
 }
 
 
